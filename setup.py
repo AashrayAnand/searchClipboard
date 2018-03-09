@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='searchClipboard',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='search google for current clipboard contents',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Aashray Anand',
+    author_email='aashrayanand01@gmail.com',
+    url='',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
