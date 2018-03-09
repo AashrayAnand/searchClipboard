@@ -22,6 +22,6 @@ setup(
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     scripts=['bin/search-Clipboard'],
-    install_requires=['markdown',],
+    install_requires=['pyperclip',],
 )
 
