@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
 
+from .context import searchClipboard
+
+# unittest is a python testing framework
 import unittest
 
 

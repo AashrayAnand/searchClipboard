@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
-from . import helpers
+import webbrowser
 
-def get_hmm():
-    """Get a thought."""
-    return 'hmmm...'
-
-
-def hmm():
-    """Contemplation..."""
-    if helpers.get_answer():
-        print(get_hmm())
+def search():
+    webbrowser.open("http://google.com/")
